@@ -11,8 +11,8 @@ import axios from 'axios'
 
 Vue.config.productionTip = false
 //测试使用
-const host = "https://math.testing1.hetao101.com/learning/v1";
-// const host = "http://localhost/learning/v1";
+// const host = "https://math.testing1.hetao101.com/learning/v1";
+const host = "http://localhost:8080/radar";
 // const wsUrl = "ws://localhost:9999/hn";
 
 //线上使用
