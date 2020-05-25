@@ -9,6 +9,7 @@ const ClassCourseEarlyWarning = () => import('../page/earlyWarning/list.vue');
 const EarlyWarningDetail = () => import('../page/earlyWarning/detail.vue');
 const GoodsAdd = () => import("../page/goods/add")
 const Goods = () => import("../page/goods/list")
+const Category = () => import("../page/category/manage")
 
 export default [
   // {path: '/login', component: Login},
@@ -27,6 +28,8 @@ export default [
       {path: '/earlyWarning/detail', name: "earlyWarningDetail", component: EarlyWarningDetail},
       {path: '/goods/add', name: "goodsAdd", component: GoodsAdd},
       {path: '/goods', name: "goods", component: Goods},
+      {path: '/category', name: "category", component: Category},
+
       // {path: '/summary', component: Summary},
 
     ]

@@ -6,14 +6,14 @@
           <div class="in">
             <a href="/index"><img class="logo" width="40px" height="40px" src="../../assets/img/logo.png"
                                   alt="数学指南针"></a>
-<!--            <img class="slogen" width="180" height="25" src="../../assets/img/slogen.png" alt="数学指南">-->
+            <!--            <img class="slogen" width="180" height="25" src="../../assets/img/slogen.png" alt="数学指南">-->
 
             <span class="gp" style=""></span>
             <span class="tl" style="">MATH-COMPASS 数学司南</span>
             <!--<span style="font-size: 23px; font-weight: 600; color: #00457d; float: right;">{{username}}</span>-->
             <p class="nlink n2">
               <router-link to="/">首页</router-link>
-<!--              <router-link to="/">帮助中心</router-link>-->
+              <!--              <router-link to="/">帮助中心</router-link>-->
               <!--<a href="#" @click="toIndex">首页</a>-->
               <!--<a href="#" @click="toHelp">帮助中心</a>-->
               <!--<a href="#" @click="logout">退出</a>-->
@@ -34,21 +34,9 @@
               <span slot="title">{{isCollapse ? "展开": "收起"}}&nbsp;&nbsp;&nbsp;&nbsp;</span>
             </el-menu-item>
 
-            <el-menu-item index="/class">
-              <i class="el-icon-document"></i>
-              <span slot="title">班级总览</span>
-            </el-menu-item>
-            <el-menu-item index="/learnRecord">
-              <i class="el-icon-setting"></i>
-              <span slot="title">学习记录</span>
-            </el-menu-item>
-            <el-menu-item index="/userCourse">
+            <el-menu-item index="/category">
               <i class="el-icon-menu"></i>
-              <span slot="title">我的课程</span>
-            </el-menu-item>
-            <el-menu-item index="/classCourseEarlyWarning">
-              <i class="el-icon-menu"></i>
-              <span slot="title">课表预警</span>
+              <span slot="title">分类</span>
             </el-menu-item>
 
             <el-menu-item index="/goods">
