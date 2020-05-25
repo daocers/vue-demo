@@ -1,0 +1,305 @@
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.clearfix {
+  *zoom: 1; /*ie6,7*/
+}
+
+.lrcon {
+  width: 900px;
+  margin: 0 auto;
+  padding: 60px 0 20px;
+  background: url(../../assets/img/bg_login.png) #fff center 70px no-repeat
+}
+
+.lrcon .lrbox {
+  width: 760px;
+  margin: 0 auto;
+  background: url(../../assets/img/bg_lr.png) #fff repeat-y
+}
+
+.lrcon .lr_lf {
+  float: left;
+  width: 159px;
+  padding: 50px 40px 0;
+  border-top: 10px solid #339bff
+}
+
+.lrcon .lr_rt {
+  position: relative;
+  float: left;
+  width: 440px;
+  padding: 0 40px 32px;
+  border-top: 10px solid #71bdff
+}
+
+.lrcon .lr_bm {
+  width: 760px;
+  height: 18px;
+  margin: 0 auto;
+  background: url(../../assets/img/bg_lrbm.png) no-repeat
+}
+
+.lrcon .lr_c {
+  position: relative;
+  margin-bottom: 60px;
+  padding-left: 50px
+}
+
+.lrcon .lr_c label {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 50%;
+  left: 0;
+  margin-top: -16px;
+  background: url(../../assets/img/icon_lr.png) no-repeat
+}
+
+.lrcon .lr_c label.l5 {
+  background-position: 0 -140px
+}
+
+.lrcon .lr_c label.l6 {
+  background-position: 0 -175px
+}
+
+.lrcon .lr_c label.l7 {
+  background-position: 0 -210px
+}
+
+.lrcon .lr_c label.l8 {
+  background-position: 0 -245px
+}
+
+.lrcon .lr_c .lr_cn p {
+  color: #666;
+  margin-bottom: 5px
+}
+
+.lrcon .mind {
+  font-size: 12px;
+  color: #999;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px dotted #ddd
+}
+.en .lrcon .lr_lf {
+  width: 197px;
+  padding: 50px 21px 0
+}
+
+.lr_h {
+  line-height: 24px;
+  font-size: 24px;
+  color: #339bff;
+  text-align: center;
+  padding: 40px 0
+}
+
+.lr_p {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  padding-top: 10px
+}
+
+.lr_p a {
+  padding-right: 20px;
+  background: url(../../assets/img/icon_go.png) right center no-repeat
+}
+
+/*标题*/
+.pro {
+  height: 30px;
+  line-height: 30px;
+  background-color: #fff2e3
+}
+
+.pro .msg em {
+  float: right;
+  width: 15px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/*基本链接样式*/
+.a {
+  cursor: pointer;
+  color: #00457d
+}
+
+.a:link, .a:active, .a:visited {
+  color: #00457d
+}
+
+.a:hover {
+  color: #339bff
+}
+
+.a2 {
+  cursor: pointer;
+  color: #339bff
+}
+
+.a2:link, .a2:active, .a2:visited {
+  color: #339bff
+}
+
+.a2:hover {
+  text-decoration: underline
+}
+
+/*字体大小*/
+.f12 {
+  font-size: 12px !important
+}
+
+/*颜色*/
+.c_999 {
+  color: #999 !important
+}
+
+/*头部*/
+.header {
+  position: relative;
+  min-width: 1002px;
+  font: 14px "Microsoft YaHei";
+  z-index: 998
+}
+
+.header p, .header ul {
+  margin: 0;
+  padding: 0
+}
+
+.header li {
+  font-family: "Microsoft YaHei";
+  list-style: none
+}
+
+.header a {
+  font-family: "microsoft yahei" !important;
+  color: #333;
+  text-decoration: none
+}
+
+.header a:visited, .header a:active, .header a:link {
+  color: #333
+}
+
+.header a:hover {
+  color: #ff6000 !important
+}
+
+.header .in {
+  width: 1002px;
+  margin: 0 auto
+}
+
+.header .nag, .header {
+  height: 56px;
+  line-height: 56px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd
+}
+
+.header .nag .logo {
+  float: left;
+  margin-top: 8px
+}
+
+.header .nag .nlink {
+  float: right
+}
+
+.header .nag .nlink a {
+  float: left;
+  height: 56px;
+  font-size: 16px;
+  margin-left: 40px
+}
+
+.header .nag .nlink .on {
+  height: 52px;
+  font-weight: bold;
+  color: #409EFF;
+  border-bottom: 4px solid #ff6000
+}
+
+.header .nag .nlink.n2 a {
+  font-size: 14px;
+  margin-left: 30px
+}
+
+.header .nag .nlink.n2 .on {
+  border-bottom: 0 none
+}
+
+.header .nag .tl {
+  float: left;
+  font-size: 22px;
+  color: #333
+}
+
+.header .gp {
+  float: left;
+  width: 1px;
+  height: 22px;
+  font-size: 0;
+  margin: 17px 10px 0;
+  background-color: #ddd
+}
+
+.header .slogen {
+  float: left;
+  margin: 20px 0 0 10px
+}
+
+/*底部*/
+.footer {
+  clear: both;
+  min-width: 1002px;
+  font: 12px "Microsoft YaHei";
+  background-color: #fff
+}
+
+.footer {
+  color: #999;
+  padding: 35px 0;
+  border-top: 1px solid #ddd
+}
+
+.footer a, .footer * {
+  font-size: 12px !important;
+  font-family: "Microsoft YaHei" !important
+}
+
+.footer .in,
+.footer .nag {
+  margin-bottom: 15px
+}
+
+.footer .note {
+  position: relative;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0
+}
+
+.footer .note span {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  padding: 0 5px;
+  z-index: 2
+}
+
+.footer.f2 {
+  border-top: 0 none
+}
