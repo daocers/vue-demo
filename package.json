@@ -13,7 +13,7 @@
     "test": "npm run unit && npm run e2e"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "echarts": "^4.2.1",
     "element-ui": "2.8.2",
     "v-charts": "^1.19.0",
